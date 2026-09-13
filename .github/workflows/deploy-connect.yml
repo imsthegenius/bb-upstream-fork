@@ -29,7 +29,7 @@ concurrency:
 jobs:
   deploy:
     name: Deploy tunnel gate to Cloudflare Workers
-    runs-on: ubuntu-latest
+    runs-on: ubicloud-standard-4-ubuntu-2404
     timeout-minutes: 20
 
     steps:
